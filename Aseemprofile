@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .heading{
+          text-align: right;
+          padding-right: 5%;
+          word-spacing: 10PX;
+          margin: -1 0% 0% 0%;
+        
+
+        }
+        #name{
+            position: absolute;
+            margin-left: 8%;
+        }
+        
+        a{
+          
+            cursor:pointer;
+            color: black;
+            text-decoration: none;
+            padding: 0px 10px;
+           
+           
+        }
+
+
+        a{
+        position: relative;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 0px 10px;
+        
+    }
+   
+    a::after{
+        content: "";
+        position: absolute;
+        background-color: #5243c0;
+        height: 3px;
+        width: 0%;
+        left: 10%;
+        bottom: -10px;
+        transition: 0.3s;
+    }
+    a:hover::after{
+        width: 80%;
+    }
+    .main{
+        margin: 5% 0% 0% 8%;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .button-container button{
+        background-color: rgba(35, 93, 199, 0.637);
+        color: rgb(236, 236, 236);
+        width: 8%;
+        height: 50px;
+        font-size: medium;
+        font-weight: bold;
+        padding: 0px 2px 2px 2px;
+        margin: 1% 0% 0% 8%;
+        border-radius: 5px;
+        border: rgba(35, 93, 199, 0.637);
+        cursor: pointer;
+    }
+    button:hover{
+        color: rgb(255, 253, 253);
+    }
+    img{
+        width: 30%;
+        border-radius: 30px;
+    }
+    .img img{
+        float: right;
+        margin: -280px 175px 0px 0px;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <!-- HEADER STARTS FROM HERE -->
+         <h3>
+            <font face="calibri" size="5">
+                <B id="name">MISFER YUSRIN</B>
+              <div class="heading">
+                 <a href="#" >Home</a>
+                 <a href="#" >About</a>
+                 <a href="#" >Projects</a>
+                 <a href="#" >Achievemnts</a>
+                 <a href="#" >Contact</a>
+              </div>
+            </font>
+         </h3>
+         <HR>
+            <br>
+            <font face="candara">
+              <div class="main">
+                   <h1>Hi,</h1>
+                   <h1>I'am <span style="color: rgba(43, 98, 218, 0.801);">Front-End</span></h1>
+                   <h1>Web Developer</h1>
+              </div>
+            </font>
+            <div class="button-container">
+                <button type="menu">Contact</button>
+            </div>
+            <div class="img">
+                <img src="/HTML TRAININGS/IMG_20231002_203831.jpg">
+            </div>
+            
+        
+        
+        
+</body>
+
+</html>
